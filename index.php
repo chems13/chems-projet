@@ -33,7 +33,7 @@
 		}			
 	
 		echo "<div class=".$maClass.">" . $_POST['text']  . "</div>";			
-		
+		// mon nouveau projet sur github
 	}   
 		
 	
