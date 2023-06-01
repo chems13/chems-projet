@@ -9,9 +9,12 @@
 		
 	<h3> Ma liste de courses</h3>
 	<form action="index.php" method="POST">
-		<label for="text"> Ma liste </label>
-		<input type= "text"  name="text" id="text" placeholder="Ajouter des produits.."/> 
-		<input type="submit" value="afficher la liste" name="ok"/>				
+		<label for="text"> Produits a ajouter </label><br>
+		<br>
+		<input type ="submit" value = "Ajouter a la liste">
+		<input type ="text"  name ="pseudo" value =" " placeholder ="Nouvelle taches"required><br>
+		<br>
+        <textarea name="article-content" id ="" cols="30" rows="20">ce ci est mon texte</textarea><br>
 	</form>	
   
 <?php
@@ -34,7 +37,11 @@
 	
 		echo "<div class=".$maClass.">" . $_POST['text']  . "</div>";			
 		// mon nouveau projet sur github
-	}   // ajouter des puces dans mon HTML
+		// ajouter des puces dans mon HTML
+		// J ai modifier le code pour afficher la liste mais j ai pas pu
+		
+	}
+	
 		
 	
 	
